@@ -1,5 +1,10 @@
 <template>
   <v-app>
+    <notifications
+      :duration="5000"
+      group="app"
+      position="top center"
+    />
     <v-container
       fluid
       fill-height
@@ -9,7 +14,7 @@
         justify="center"
       >
         <v-col
-          cols="10"
+          cols="12"
           md="8"
           lg="5"
         >
